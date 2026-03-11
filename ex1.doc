@@ -1,0 +1,13 @@
+inicio 
+
+escreva: Digite o primeiro valor:
+ler valor1 
+guardar valor1
+
+escreva: Digite o segundo valor:
+ler valor2
+guardar valor2
+
+calcular diferença valor1 - valor2 
+exibir resultado
+fim

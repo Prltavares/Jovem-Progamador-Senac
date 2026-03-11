@@ -1,0 +1,30 @@
+inicio
+
+guarde 8, 9, 7;
+guarde 4, 5, 6;
+
+calcular 8 + 9 + 7 = resultado1;
+guarde resultado1;
+
+calcule 4 + 5 + 6 =resultado2
+guarde resultado2;
+
+calcular resultado1 / 3 =resultadomedia1
+guardar resultadomedia1
+
+calcular resultado2 / 3 = resultadomedia2 
+guardar resultadomedia2
+
+calcular resultadomedia1 + resultadomedia2 = somamedias
+guardar somamedias 
+calcular somamedias / 2 = mediasaritimeticas
+
+imprima: Resultado media 1:  resultadomedia1
+imprima: Resultado media 2:  resultadomedia2
+imprima: Resultado da soma das duas medias: somamedias
+imprima: Resultado da media aritimetica das media 1 e 2: mediasaritimeticas
+
+fim
+
+
+

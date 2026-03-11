@@ -1,0 +1,13 @@
+inicio
+imprima: digite seu saldo atual
+guarde saldo
+
+calcular reajuste = 0.01 * saldo
+guarde reajuste
+calcular reajustesaldo = reajuste + saldo 
+guarde reajustesaldo
+
+imprima: saldo sem reajuste: saldo
+imprima: saldo com reajuste: reajustesaldo
+
+fim
