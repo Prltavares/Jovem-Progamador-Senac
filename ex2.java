@@ -12,5 +12,6 @@ public class ex2 {
 
         System.out.println("Saldo original: " + saldo);
         System.out.println("Saldo após reajuste de 1%: " + saldoReajustado);
+        scanner.close();
     }
 }

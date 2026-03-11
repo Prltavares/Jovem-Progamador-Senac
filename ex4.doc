@@ -1,0 +1,17 @@
+inicio
+imprimir: digite valor 1 
+guardar valor1
+
+imprimir: digite valor 2
+guardar: valor2
+
+calcular: valor1 + valor2 = somavalores
+guardar somavalores
+
+calcular somavalores* 2 = dobrosomavalores
+guardar dobrosomavalores
+
+imprimir: soma dos dois valores: somavalores
+imprimir: dobro da soma dos dois valores: dobrosomavalores
+
+fim
