@@ -1,1 +1,21 @@
-d
+Algoritmo "Cardapio_Lunas_Lanches"
+Var
+   lanche, bebida: caractere
+Inicio
+   Escreva("====================================", "\n")
+   Escreva("      Luna's Lanches - Cardápio      ", "\n")
+   Escreva("====================================", "\n")
+   Escreva("Tipos de lanches:", "\n")
+   Escreva("  Salgado: coxinha (R$ 5,00), pastel (R$ 6,00), folhado (R$ 7,00)", "\n")
+   Escreva("  Doce: brigadeiro (R$ 2,00), bolo (R$ 4,00), cookie (R$ 3,00)", "\n")
+   Escreva("Bebidas: suco (R$ 4,00), refrigerante (R$ 5,00), água (R$ 2,00)", "\n")
+   Escreva("====================================", "\n")
+   Escreva("Questão 2: Informe o lanche desejado:", "\n")
+   Leia(lanche)
+   Escreva("Informe a bebida desejada:", "\n")
+   Leia(bebida)
+   Escreva("====================================", "\n")
+   Escreva("Resumo do pedido:", "\n")
+   Escreva("Lanche: ", lanche, "\n")
+   Escreva("Bebida: ", bebida, "\n")
+Fimalgoritmo
