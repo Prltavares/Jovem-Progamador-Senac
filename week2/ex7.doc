@@ -1,0 +1,15 @@
+Algoritmo "exe3"
+
+Var
+x,y,z: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores,
+//x <- 12
+//y <- 24
+escreva ("digite o valor de x: ")
+leia(x)
+escreva ("digite o valor de y: ")
+leia(y)
+z <- x + y
+escreva("Resultado é: ", z)
+Fimalgoritmo

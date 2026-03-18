@@ -1,0 +1,18 @@
+Algoritmo "Lista3_5"
+
+Var
+X,Y:real
+T,K:logico
+Z,W:caractere
+
+
+Inicio
+X<- 3
+Y<- x^2
+Z<-"abaca"
+W<- Z + "xi"
+T<-(X<=Y) e (não(Z+"te"<>W))
+K<- não (T e ("abaca" = Z))
+
+
+Fimalgoritmo

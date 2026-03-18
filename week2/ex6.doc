@@ -1,0 +1,28 @@
+Algoritmo "Lista2"
+
+//
+Var
+// Seção de Declarações das variáveis 
+coxinha, pastel, folhado, caractere
+brigadeiro, bolo, cookie, caractere
+suco, refrigerante, agua, caractere
+lanche, caractere
+lanche <- coxinha, pastel, folhado, brigadeiro, bolo, cookie,
+bebida, caractere
+bebida <- suco, refrigerante, agua
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval: ("***Luna's Lanches****")
+escreval: ("****CARDAPIO*****")
+escreval: ("*****TIPOS DE LANCHES******")
+escreval: ("Salgados: coxinha (R$ 5,00), pastel (R$ 6,00), folhado (R$ 7,00)")
+escreval: ("Doces: brigadeiro(R$ 2,00) ,bolo( R$ 4,00), cookie (R$ 3,00)")
+escreval: ("Bebidas: suco (R$ 4,00), refrigerante (R$ 5,00), água (R$ 2,00)")
+escreval: ("informe o seu lanche!")
+leia(lanche)
+escreva ("informe a bebida!")
+leia(bebida)
+escreval("você pediu:" , lanche, "e",  bebida)
+
+Fimalgoritmo

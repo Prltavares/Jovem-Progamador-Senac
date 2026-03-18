@@ -1,0 +1,15 @@
+Algoritmo "Lista3_2"
+
+Var
+A:Real
+B:Real
+C:Real
+D:Real
+
+Inicio
+A<- ((45 * 2 - 30) / 5 - 8) ^ ( 1/2 )
+B<- -3 ^ 3
+C<- 27 - 3 ^ 4
+D<- 70 - (50 / 2) - 5 * 3
+
+Fimalgoritmo

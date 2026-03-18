@@ -1,0 +1,15 @@
+Algoritmo "Lista3_2"
+
+Var
+B, C, D: caractere
+
+
+Inicio
+D<- "logica "
+B<-"livro "
+C<- B+ "de " + D
+escreval ( C )'
+
+
+
+Fimalgoritmo

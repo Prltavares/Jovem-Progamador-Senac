@@ -1,0 +1,16 @@
+Algoritmo "Lista3_4"
+
+Var
+A,B,C: real
+D,F: logico
+
+
+Inicio
+ A<- 20
+ B<- (40+A)/3
+ C<- (A+80)^0.5
+ D<- (A >=B )
+ F<- (C = B)
+
+
+Fimalgoritmo
