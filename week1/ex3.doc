@@ -1,4 +1,4 @@
-inicio
+//inicio
 
 guarde 8, 9, 7;
 guarde 4, 5, 6;
@@ -24,7 +24,7 @@ imprima: Resultado media 2:  resultadomedia2
 imprima: Resultado da soma das duas medias: somamedias
 imprima: Resultado da media aritimetica das media 1 e 2: mediasaritimeticas
 
-fim
+fim//
 
 
 

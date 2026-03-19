@@ -11,3 +11,15 @@ guardar valor2
 calcular diferença valor1 - valor2 
 exibir resultado
 fim
+-------------
+Algoritmo DiferençaValores
+
+inicio
+	inteiro valor1, valor2, resultado
+	escreva("Digite o primeiro valor: ")
+	leia(valor1)
+	escreva("Digite o segundo valor: ")
+	leia(valor2)
+	resultado <- valor1 - valor2
+	escreva("A diferença é: ", resultado)
+fim
