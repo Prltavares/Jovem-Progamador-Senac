@@ -1,4 +1,4 @@
-package ifelse;
+package week5.ifelse;
 
 public class Ex1 {
 public static void main(String[] args) {
