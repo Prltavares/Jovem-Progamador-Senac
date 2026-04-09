@@ -1,3 +1,4 @@
+package week6;
 public class Repeticaoex2 {
 	public static void main(String[] args) {
 		int count = 0;

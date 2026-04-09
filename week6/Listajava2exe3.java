@@ -1,3 +1,4 @@
+package week6;
 
 
 public class Listajava2exe3 {
