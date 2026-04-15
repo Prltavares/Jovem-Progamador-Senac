@@ -1,3 +1,4 @@
+package mes1.week3.week3;
 import java.util.Scanner;
 
 public class Lista4_2 {

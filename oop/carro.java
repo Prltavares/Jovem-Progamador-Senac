@@ -6,4 +6,5 @@ public class carro {
     int nmrpassageiros;
     double capacidadeCombustivel;
     double consumoCombustivel;
+
 }
