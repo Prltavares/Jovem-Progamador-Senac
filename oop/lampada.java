@@ -1,18 +1,42 @@
 package oop;
 
 public class lampada {
-    public String marca;
-    public String modelo;
+   
+    boolean ligada;
+    String cor;
     int potencia;
-    String tipoLuz;
-    Double valor;
 
-   // public static void main(String[] args) {
-   //     lampada ledbranca = new lampada();
-   //     ledbranca.marca = "philips"; 
-   //     ledbranca.modelo = "led";
-   //     ledbranca.potencia = 10;
-   //     ledbranca.tipoLuz = "branca";
-   //     ledbranca.valor = 50.00;///
-    
+    void ligar() {
+        ligada = true;
+    }
+
+    void desligar() {
+        ligada = false;
+    }
+
+    void alterarEstado() {
+        if (ligada) {
+            desligar();
+        } else {
+            ligar();
+        }
+    }
+
+    void trocarCor(String novaCor) {
+        cor = novaCor;
+    }
+
+    void mostrarStatus() {
+        if (ligada) {
+            System.out.println("Lampada acesa");
+        } else {
+            System.out.println("Lampada apagada");
+        }
+
+        System.out.println("Potência:" + potencia);
+        System.out.println("Cor: " + cor);
+
+    }
+
+
 }
