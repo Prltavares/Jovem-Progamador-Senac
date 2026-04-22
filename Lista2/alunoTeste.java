@@ -1,3 +1,4 @@
+package Lista2;
 import java.util.Scanner;
 
 public class alunoTeste {
@@ -32,6 +33,7 @@ public class alunoTeste {
          disciplina2 = sc.nextLine();
             System.out.println("Digite a nota da disciplina 2:");  
             notas2 = sc.nextDouble();
+             sc.nextLine();
 
         System.out.println("Digite a disciplina 3:");
          disciplina3 = sc.nextLine();

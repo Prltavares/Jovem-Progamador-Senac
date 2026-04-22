@@ -1,3 +1,4 @@
+package Lista2;
 public class SistemaUniversidade {
 
     public static void main(String[] args) {

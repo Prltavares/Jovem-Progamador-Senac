@@ -1,3 +1,4 @@
+package Lista2;
 public class professor {
 
     String nome;

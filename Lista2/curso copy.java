@@ -1,3 +1,4 @@
+package Lista2;
 public class curso {
 int codigo;
     String nome;

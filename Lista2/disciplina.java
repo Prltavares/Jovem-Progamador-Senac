@@ -1,3 +1,5 @@
+package Lista2;
+
 public class disciplina {
 int codigo;
     String nome;
