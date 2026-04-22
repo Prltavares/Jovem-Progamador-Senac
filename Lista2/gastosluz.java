@@ -1,4 +1,4 @@
-package Lista2;
+package lista2;
 public class gastosluz {
     private String dataLeitura;
     private int numeroLeitura;

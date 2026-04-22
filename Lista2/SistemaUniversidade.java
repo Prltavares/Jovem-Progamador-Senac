@@ -1,4 +1,4 @@
-package Lista2;
+package lista2;
 public class SistemaUniversidade {
 
     public static void main(String[] args) {

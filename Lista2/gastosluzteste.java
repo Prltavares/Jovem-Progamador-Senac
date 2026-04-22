@@ -1,4 +1,4 @@
-package Lista2;
+package lista2;
 public class gastosluzteste {
     public static void main(String[] args) {
         gastosluz leituraJulho = new gastosluz("04/07/2005", 4166, 460, 206.43, "15/07/2005");

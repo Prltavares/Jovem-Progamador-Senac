@@ -1,4 +1,4 @@
-package Lista2;
+package lista2;
 public class tecnicoAdministrativo {
 String nome;
     String endereco;
