@@ -7,21 +7,21 @@ public class aluno {
     private String[] disciplinas;
     private double[] notas;
 
-    // Construtor padrão
+    
     public aluno() {
         this.disciplinas = new String[3];
         this.notas = new double[3];
     }
 
-    // Construtor sobrecarregado
+    
     public aluno(String nome, String matricula, String curso) {
-        this(); // Chama o construtor padrão
+        this(); 
         this.nome = nome;
         this.matricula = matricula;
         this.curso = curso;
     }
 
-    // Getters e Setters com 'this'
+    
     public String getNome() {
         return this.nome;
     }
@@ -50,9 +50,9 @@ public class aluno {
         return this.disciplinas;
     }
 
-    public void setDisciplina(int index, String disciplina) {
-        if (index >= 0 && index < 3) {
-            this.disciplinas[index] = disciplina;
+    public void setDisciplina(int i, String disciplina) {
+        if (i >= 0 && i < 3) {
+            this.disciplinas[i] = disciplina;
         }
     }
 
@@ -60,9 +60,9 @@ public class aluno {
         return this.notas;
     }
 
-    public void setNota(int index, double nota) {
-        if (index >= 0 && index < 3) {
-            this.notas[index] = nota;
+    public void setNota(int i, double nota) {
+        if (i >= 0 && i < 3) {
+            this.notas[i] = nota;
         }
     }
 
@@ -78,9 +78,9 @@ public class aluno {
 
     // Método público para verificar se aprovado em uma disciplina
     public boolean estaAprovado(String disciplina) {
-        int index = this.findDisciplinaIndex(disciplina);
-        if (index != -1) {
-            return this.notas[index] >= 7.0;
+        int i = this.findDisciplinaIndex(disciplina);
+        if (i != -1) {
+            return this.notas[i] >= 7.0;
         }
         return false; // Disciplina não encontrada
     }

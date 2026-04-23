@@ -23,7 +23,7 @@ public class testealuno {
 
             System.out.print("Digite a nota da disciplina " + disciplina + ": ");
             double nota = scanner.nextDouble();
-            scanner.nextLine(); // Consumir a quebra de linha
+            scanner.nextLine(); 
             aluno.setNota(i, nota);
         }
 
