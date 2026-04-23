@@ -4,26 +4,26 @@ import java.util.Scanner;
 
 public class testealuno {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         aluno aluno = new aluno();
 
         System.out.print("Digite o nome do aluno: ");
-        aluno.setNome(scanner.nextLine());
+        aluno.setNome(sc.nextLine());
 
         System.out.print("Digite a matrícula: ");
-        aluno.setMatricula(scanner.nextLine());
+        aluno.setMatricula(sc.nextLine());
 
         System.out.print("Digite o curso: ");
-        aluno.setCurso(scanner.nextLine());
+        aluno.setCurso(sc.nextLine());
 
         for (int i = 0; i < 3; i++) {
             System.out.print("Digite o nome da disciplina " + (i + 1) + ": ");
-            String disciplina = scanner.nextLine();
+            String disciplina = sc.nextLine();
             aluno.setDisciplina(i, disciplina);
 
             System.out.print("Digite a nota da disciplina " + disciplina + ": ");
-            double nota = scanner.nextDouble();
-            scanner.nextLine(); 
+            double nota = sc.nextDouble();
+            sc.nextLine(); 
             aluno.setNota(i, nota);
         }
 
@@ -40,6 +40,6 @@ public class testealuno {
             System.out.println("Disciplina: " + disciplina + ", Nota: " + nota + ", Aprovado: " + (aprovado ? "Sim" : "Não"));
         }
 
-        scanner.close();
+        sc.close();
     }
 }
