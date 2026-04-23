@@ -27,12 +27,12 @@ public class testealuno {
             aluno.setNota(i, nota);
         }
 
-        System.out.println("\nInformações do aluno:");
+        System.out.println("Informações do aluno:");
         System.out.println("Nome: " + aluno.getNome());
         System.out.println("Matrícula: " + aluno.getMatricula());
         System.out.println("Curso: " + aluno.getCurso());
 
-        System.out.println("\nDisciplinas e notas:");
+        System.out.println("Disciplinas e notas:");
         for (int i = 0; i < 3; i++) {
             String disciplina = aluno.getDisciplinas()[i];
             double nota = aluno.getNotas()[i];

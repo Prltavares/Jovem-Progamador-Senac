@@ -12,5 +12,7 @@ public class lampadateste {
         l1.desligar();
 
     }
+
+    
 }
        

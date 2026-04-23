@@ -66,22 +66,22 @@ public class aluno {
         }
     }
 
-    // Método auxiliar privado para encontrar o índice da disciplina
-    private int findDisciplinaIndex(String disciplina) {
+   
+    private int procurarDisciplina(String disciplina) {
         for (int i = 0; i < 3; i++) {
             if (this.disciplinas[i] != null && this.disciplinas[i].equals(disciplina)) {
                 return i;
             }
         }
-        return -1; // Disciplina não encontrada
+        return -1;
     }
 
-    // Método público para verificar se aprovado em uma disciplina
+   
     public boolean estaAprovado(String disciplina) {
-        int i = this.findDisciplinaIndex(disciplina);
+        int i = this.procurarDisciplina(disciplina);
         if (i != -1) {
             return this.notas[i] >= 7.0;
         }
-        return false; // Disciplina não encontrada
+        return false; 
     }
 }

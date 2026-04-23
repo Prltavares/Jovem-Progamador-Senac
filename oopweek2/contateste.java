@@ -31,7 +31,7 @@ public class contateste {
 
 		System.out.println();
 
-		// Teste do construtor sobrecarregado (sem saldo inicial)
+		
 		contacorrente c3 = new contacorrente(789, true, 1000.0);
 		System.out.println("conta 3:");
 		c3.exibirInfo();

@@ -19,12 +19,12 @@ public class lampada {
         this.ligada = false;
     }
 
-    // Sobrecarga: só cor
+    
     public lampada(String cor) {
         this(cor, "philips");
     }
 
-    // Métodos públicos para ligar e desligar
+    
     public void ligar() {
         if (!this.ligada) {
             this.ligada = true;
@@ -39,7 +39,7 @@ public class lampada {
         }
     }
 
-    // Getters e Setters
+   
     public String getCor() {
         return this.cor;
     }
