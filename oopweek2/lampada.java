@@ -8,7 +8,7 @@ public class lampada {
    
     public lampada() {
         this.cor = "vermelho";
-        this.marca = "branco";
+        this.marca = "philips";
         this.ligada = false;
     }
 
