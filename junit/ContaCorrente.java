@@ -1,4 +1,5 @@
-public class ContaCorrente {
+public class ContaCorrente { @test
+
 
 	String numero;
 	String agencia;
